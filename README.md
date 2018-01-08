@@ -1,4 +1,5 @@
 # Spotify taste visualization
+![alt text](https://user-images.githubusercontent.com/18704685/34679733-278631ce-f497-11e7-9ccc-0d6d54f3ced8.PNG)
 ## Introduction
 Create a simple dashboard to observe the change in music taste
 
@@ -7,8 +8,6 @@ I am not allowed to copy/distribute any data nor able to share my developer cred
 
 Whoever whants to use or enhance this code can apply for credentials here: https://developer.spotify.com
 
-A first preview of the dashboard:
-![alt text](https://user-images.githubusercontent.com/18704685/34679733-278631ce-f497-11e7-9ccc-0d6d54f3ced8.PNG)
 
 ## Running
 ### Changes in main
