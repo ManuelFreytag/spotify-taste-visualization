@@ -39,6 +39,8 @@ The application is now running. Refresh the local ``http://localhost:5006/spotif
 Explanation
 =======
 
+![alt text](https://user-images.githubusercontent.com/18704685/34679732-276eaa40-f497-11e7-9019-3c4af382c3c0.PNG)
+
 Explanation how to use it
 
 Either saved songs or all songs at least in one playlist
