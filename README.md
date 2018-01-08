@@ -1,18 +1,12 @@
-Create a simple stocks dashboard to observe the change in music taste
+Create a simple dashboard to observe the change in music taste
 
 This project leverages the API provided by spotify.
-I do not own any rights to the data nor am i allowed to 
+I am not allowed to copy/distribute any data nor able to share my developer credentials.
 
-To use any of the tools provided in this repository you will need to apply for a 
-
-Also
+Whoever whants to use or enhance this code can apply for credentials here: https://developer.spotify.com
 
 Running
 =======
-
-note: Running this tools requires spotify developer credentials
-You can apply for these credentials here: https://developer.spotify.com
-
 Changes in main
 ---------------
 Change credentials in the dataImport script to your own:
@@ -36,19 +30,11 @@ Then navigate to the URL in your browser:
 
     http://localhost:5006/spotify-taste-visualization
 
-A new spotify log-in page will open and ask for your permissione
-login and and allow your application the access to your data
+A new spotify login page will open and ask for your permission.
+Login and and allow your application the access to your data.
 
-you will get redirected to a new url
-Copy and paste the url into your command window
-
-you will get 
-
-Choose stocks to compare in the drop down widgets, and make selections
-on the plots to update the summary and histograms accordingly.
-.. note::
-    Running this example requires downloading sample data. See
-    the included `README`_ for more information.
+You will get redirected to a new url. Copy and paste the url into your command window.
+The application is now running. Refresh the local ``http://localhost:5006/spotify-taste-visualization`` and start using the dashboard.
 
 Explanation
 =======
