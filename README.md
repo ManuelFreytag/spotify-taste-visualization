@@ -38,6 +38,27 @@ The application is now running. Refresh the local ``http://localhost:5006/spotif
 
 Explanation
 =======
+Basic functionality
+-------------------
+
+The dashboard visualizes the music library of the user. It consists of two main graphs. One is a scatter-plot of multiple song features with changing point sizes depending on a third feature.
+
+Some potential selections are:
+**x/y:**
+- danceability
+- loudness
+- accusticness
+- instrumentalness
+- energy
+
+**size**:
+- None
+- loudness
+- duration in ms
+
+You can inspect an overview of the dashboard in this picture
+
+![alt text](https://user-images.githubusercontent.com/18704685/34679733-278631ce-f497-11e7-9ccc-0d6d54f3ced8.PNG)
 
 ![alt text](https://user-images.githubusercontent.com/18704685/34679732-276eaa40-f497-11e7-9019-3c4af382c3c0.PNG)
 
