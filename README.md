@@ -29,12 +29,12 @@ Execution of the programm
 -------------------------
 open the command window, change the directory to the location of the project
 and use:
- 
-          bokeh serve spotify-taste-visualization
+
+     bokeh serve spotify-taste-visualization
  
 Then navigate to the URL in your browser:
-          
-          http://localhost:5006/spotify-taste-visualization
+
+     http://localhost:5006/spotify-taste-visualization
 
 A new spotify log-in page will open and ask for your permissione
 login and and allow your application the access to your data
