@@ -16,7 +16,8 @@ credentials = {"":?, "":?}
 change the username to the user of interest
 
 open the command window, change the directory to the location of the project
-and use the ``bokeh serve spotify-taste-visualization`` command.
+and use:
+           `bokeh serve spotify-taste-visualization`
 
 Then navigate to the URL "http://localhost:5006/spotify-taste-visualization"
 
