@@ -7,20 +7,28 @@ To use any of the tools provided in this repository you will need to apply for a
 
 Also
 
+Running
+=======
+
 note: Running this tools requires spotify developer credentials
 You can apply for these credentials here: https://developer.spotify.com
 
-Change credentials to your own (in format:
+Change credentials in the dataImport script to your own:
 
-credentials = {"":?, "":?}
+
+    credentials = {"client_id": **?**,
+                   "client_secret":**?*}
+
 change the username to the user of interest
 
 open the command window, change the directory to the location of the project
 and use:
  
-           bokeh serve spotify-taste-visualization
+          bokeh serve spotify-taste-visualization
  
-Then navigate to the URL "http://localhost:5006/spotify-taste-visualization"
+Then navigate to the URL in your browser:
+          
+          http://localhost:5006/spotify-taste-visualization
 
 A new spotify log-in page will open and ask for your permissione
 login and and allow your application the access to your data
@@ -36,7 +44,7 @@ on the plots to update the summary and histograms accordingly.
     Running this example requires downloading sample data. See
     the included `README`_ for more information.
 
-Running
+Explanation
 =======
 
 Explanation how to use it
@@ -47,6 +55,8 @@ Hover over song
 Select x, y or circle size
 Select points to see special time periode highlighted
 
+TODO
+====
 Potential future enhancements:
 - Adding filter possibilities
 - Adding aggregated selection summary
