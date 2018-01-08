@@ -50,7 +50,7 @@ def getData(credentials, username, saved = True, deselect = []):
     if(saved == True):
         tURIS = getTrackInfo(sp, spu)
     else:
-        pURIS = getUrisPlaylists2(spu, deselect)
+        pURIS = getUrisPlaylists(spu, deselect)
         tURIS = getTrackInfo(sp, spu, pURIS)
     
     genreDF = getArtistGenre(sp, tURIS)    
@@ -63,32 +63,7 @@ def getData(credentials, username, saved = True, deselect = []):
     
     return data
 
-#def getUrisPlaylists(credentials, username, deselect):
-#    """
-#    Helper function to gather all playlistURIS
-#    ___________________________________________________________________________
-#    credentials:    Valid credentials to allow access to the spotify api
-#    username:       List containing the track URIS and artist URIS in dictionary form
-#    deselect:       List of names for playlists that should not be selected
-#    ___________________________________________________________________________
-#    """
-#    
-#    token = util.prompt_for_user_token(username, " ", **credentials, redirect_uri = "http://127.0.0.1/callback")
-#    uris = []
-#    
-#    if token:
-#        spu = spotipy.Spotify(auth=token)
-#        spu.trace = False
-#
-#        results = spu.current_user_playlists(limit=50)
-#        #select all uris except for the explicitly deselected
-#        uris = [x["uri"] for x in results["items"] if deselect.count(x["name"]) == 0]
-#    else:
-#        raise Warning("Can't get access token for", username)
-#        
-#    return uris
-
-def getUrisPlaylists2(spu, deselect):
+def getUrisPlaylists(spu, deselect):
     """
     Helper function to gather all playlistURIS
     ___________________________________________________________________________
