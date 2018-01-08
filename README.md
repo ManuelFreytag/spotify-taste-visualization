@@ -44,7 +44,11 @@ The application is now running. Refresh the local ``http://localhost:5006/spotif
 
 The dashboard visualizes the music library of the user. It consists of two main graphs. One is a scatter-plot of multiple song features with changing point sizes depending on a third feature.
 
-Some potential selections are:
+The user can decide between two data collection methods:
+1) All saved songs by a user  ``getData(credentials, username, saved = True)`` (default)
+2) All songs that are at least in one playlist ``getData(credentials, username, saved = False)``
+
+Some potential selections are:  
 **x/y:**
 - danceability
 - loudness
@@ -58,18 +62,15 @@ Some potential selections are:
 - duration in ms
 
 ## Advanced functionality
+Both graphs are connected to the same data. Therefore, selection datapoints in one graph highlights and selects the connected datapoints in the other graph. This allowes for a more specific inspection, depending on the periode of interest.
+
 ![alt text](https://user-images.githubusercontent.com/18704685/34679732-276eaa40-f497-11e7-9019-3c4af382c3c0.PNG)
 
-Explanation how to use it
+Additionally certain patterns might be confusing or some features are not explanatory. Therefore, this dashboard allowes to hover over a specific data-point to optain additional information to what song this point corresponds.
 
-Either saved songs or all songs at least in one playlist
+![alt text](https://user-images.githubusercontent.com/18704685/34679735-279ea31c-f497-11e7-9f9b-7ac1ad88020b.PNG)
 
-Hover over song
-Select x, y or circle size
-Select points to see special time periode highlighted
-
-TODO
-====
+## TODO
 Potential future enhancements:
 - Adding filter possibilities
 - Adding aggregated selection summary
