@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+            body {
+              font-family: 'Noto Sans', sans-serif;
+              -webkit-font-smoothing: antialiased;
+              text-rendering: optimizeLegibility;
+              color: #7f7f7f;
+              background: #2F2F2F;
+             }
+        </style>
+        <meta charset="utf-8">
+        <title >Spotify taste visualization</title>
+        {{ bokeh_css }}
+        {{ bokeh_js }}
+    </head>
+    <body>
+	<center>
+		<font size = 30">Spotify taste visualization<br /><br />
+		</font>
+	</center>
+        {{ plot_div|indent(8) }}
+        {{ plot_script|indent(8) }}
+    </body>
+</html>
