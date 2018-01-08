@@ -13,6 +13,8 @@ Running
 note: Running this tools requires spotify developer credentials
 You can apply for these credentials here: https://developer.spotify.com
 
+Changes in main
+---------------
 Change credentials in the dataImport script to your own:
 
 
@@ -21,6 +23,10 @@ Change credentials in the dataImport script to your own:
 
 change the username to the user of interest
 
+    username = **?**
+
+Execution of the programm
+-------------------------
 open the command window, change the directory to the location of the project
 and use:
  
